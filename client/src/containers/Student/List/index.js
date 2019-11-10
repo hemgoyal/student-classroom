@@ -9,6 +9,7 @@ import {
   TableHead,
   TableRow
 } from '@material-ui/core';
+import { Delete, Edit } from '@material-ui/icons';
 
 const GET_STUDENTS = gql`
   query {
@@ -29,8 +30,6 @@ export default class AddStudent extends Component {
         {({ loading, error, data }) => {
           if (loading) return <CircularProgress />;
           if (error) return <div>Error :(</div>;
-
-          console.log('studetns: ', data.students);
 
           return (
             <Table>
@@ -53,7 +52,10 @@ export default class AddStudent extends Component {
                       <TableCell>{student.email}</TableCell>
                       <TableCell>{student.mobile}</TableCell>
                       <TableCell>{student.is_active}</TableCell>
-                      <TableCell>Edit, Delete</TableCell>
+                      <TableCell>
+                        <Edit />
+                        <Delete />
+                      </TableCell>
                     </TableRow>
                   ))
                 }
