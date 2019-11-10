@@ -8,7 +8,7 @@ Technology Used:\
 [React](https://reactjs.org/)\
 [NodeJS](https://nodejs.org/)
 
-UI Library:
+UI Library:\
 [Material UI](https://material-ui.com/)
 
 Minimum Requirement:
