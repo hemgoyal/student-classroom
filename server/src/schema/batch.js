@@ -7,16 +7,17 @@ export default gql`
   }
 
   extend type Mutation {
-    createNewBatch(name: String!, teacher: String!, is_active: Int!): Batch!
+    createNewBatch(name: String!, teacher_id: Int!, is_active: Int!): Batch!
     deleteBatch(id: ID!): Boolean!
   }
 
   type Batch {
     id: ID!,
     name: String!,
-    teacher: Int!,
+    teacher_id: Int!,
+    teacher: Teacher!,
     is_active: Int,
-    createdAt: String,
-    updatedAt: String
+    created_at: String,
+    updated_at: String
   }
 `;

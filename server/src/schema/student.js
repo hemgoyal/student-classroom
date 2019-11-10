@@ -17,7 +17,7 @@ export default gql`
     email: String!
     mobile: String!
     is_active: Int,
-    createdAt: String
-    updatedAt: String
+    created_at: String
+    updated_at: String
   }
 `;

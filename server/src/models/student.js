@@ -4,6 +4,8 @@ const student = (sequelize, DataTypes) => {
     email: DataTypes.STRING,
     mobile: DataTypes.STRING,
     is_active: DataTypes.INTEGER,
+  }, {
+    underscored: true
   });
 
   return Student;

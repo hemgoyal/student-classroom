@@ -5,19 +5,28 @@ export default {
     },
 
     batch: async (parent, { id }, { models }) => {
-      return await models.Batch.findByPk(id)
+      return await models.Batch.findByPk(id, {
+        include: [
+          {
+            model: models.Teacher,
+            where: {
+              id: id
+            }
+          }
+        ]
+      })
     }
   },
 
   Mutation: {
     createNewBatch: async (parent, {
       name,
-      teacher,
+      teacher_id,
       is_active
     }, { models }) => {
       return await models.Batch.create({
         name,
-        teacher,
+        teacher_id,
         is_active
       });
     },
