@@ -50,5 +50,5 @@ GRANT ALL PRIVILEGES ON DATABASE members TO postgres;
   npm start
   ```
 
-Backend server will start on http://localhost:4000\
+Backend server will start on http://localhost:4000 \
 Client server will start on http://localhost:3000
