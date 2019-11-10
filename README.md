@@ -1,18 +1,18 @@
 # Student Classroom
 Apollo Server with GraphQL and PostgreSQL Sample App
 
-Technology Used:\
+**Technology Used:**\
 [Apollo Server](https://www.apollographql.com/docs/apollo-server/)\
 [GraphQL](https://graphql.org/)\
 [PostgreSQL](https://www.postgresql.org/)\
 [React](https://reactjs.org/)\
 [NodeJS](https://nodejs.org/)
 
-UI Library:\
+**UI Library:**\
 [Material UI](https://material-ui.com/)
 
-Minimum Requirement:
-Node 8+
+**Minimum Requirement:**\
+Node 8+\
 NPM 6+
 
 Please follow below mentioned step to run this project:
