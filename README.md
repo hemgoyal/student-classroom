@@ -1,11 +1,11 @@
 # Student Classroom
 Apollo Server with GraphQL and PostgreSQL Sample App
 
-Technology Used:
-[Apollo Server](https://www.apollographql.com/docs/apollo-server/)
-[GraphQL](https://graphql.org/)
-[PostgreSQL](https://www.postgresql.org/)
-[React](https://reactjs.org/)
+Technology Used:\
+[Apollo Server](https://www.apollographql.com/docs/apollo-server/)\
+[GraphQL](https://graphql.org/)\
+[PostgreSQL](https://www.postgresql.org/)\
+[React](https://reactjs.org/)\
 [NodeJS](https://nodejs.org/)
 
 UI Library:
